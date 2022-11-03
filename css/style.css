@@ -295,7 +295,8 @@ main .about ul li .img .part {
         text-align: start;
         font-size: 15px;
     }
-     main .about ul li .img {
+
+    main .about ul li .img {
         left: -30px;
     }
 }
