@@ -301,6 +301,13 @@ main .about ul li .img .part {
         text-align: start;
         font-size: 15px;
     }
+     main .about ul li .img {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: -30px;
+    }
 }
 
 @media(max-width:320px) {
