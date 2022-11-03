@@ -255,7 +255,6 @@ main .about ul li .img {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     background-color: var(--main-color);
-    outline: 3px solid var(--light-color);
 }
 
 main .about ul li .img .part {
