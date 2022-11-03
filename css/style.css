@@ -141,6 +141,34 @@ h6 {
 }
 
 /* End Header */
+
+/* Start Services */
+main .services {
+    padding-top: 6rem;
+}
+
+main .services .container .row .cart {
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+main .services .container .row h4 {
+    font-weight: 700;
+}
+
+main .services .container .row p {
+    line-height: 1.75;
+}
+
+/* End Services */
+
 /* Start Media Query */
 @media(max-width:768px) {
     .header {
