@@ -302,10 +302,6 @@ main .about ul li .img .part {
         font-size: 15px;
     }
      main .about ul li .img {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         left: -30px;
     }
 }
