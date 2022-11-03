@@ -16,6 +16,7 @@
     padding: 0;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    list-style: none;
 }
 
 html,
@@ -208,6 +209,68 @@ main .portfolio .container .content .img:hover:before {
 
 /* End Portfolio */
 
+/* Start About */
+main .about ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main .about ul li .img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 15px;
+}
+
+main .about ul li .img img {
+    border: 1px solid var(--main-color);
+    outline: 2px solid var(--light-color);
+}
+
+main .about ul li .info .heading {
+    text-align: end;
+}
+
+main .about ul li .info .heading h4 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+main .about ul li .info .heading h6 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+main .about ul li .info .content p {
+    width: 350px;
+    text-align: end;
+}
+
+main .about ul li .img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: var(--main-color);
+    outline: 3px solid var(--light-color);
+}
+
+main .about ul li .img .part {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+/* End About */
+
 /* Start Media Query */
 @media(max-width:768px) {
     .header {
@@ -226,6 +289,17 @@ main .portfolio .container .content .img:hover:before {
     .header .container a {
         font-size: 1.5rem;
         padding: 1rem 1.2rem;
+    }
+
+    main .about ul li .info .heading {
+        text-align: start;
+        margin-top: 20px;
+    }
+
+    main .about ul li .info .content p {
+        width: 250px;
+        text-align: start;
+        font-size: 15px;
     }
 }
 
