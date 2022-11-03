@@ -227,11 +227,6 @@ main .about ul li .img {
     right: 15px;
 }
 
-main .about ul li .img img {
-    border: 1px solid var(--main-color);
-    outline: 2px solid var(--light-color);
-}
-
 main .about ul li .info .heading {
     text-align: end;
 }
