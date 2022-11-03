@@ -227,6 +227,10 @@ main .about ul li .img {
     right: 15px;
 }
 
+main .about ul li .img img {
+    border: 6px double var(--light-color);
+}
+
 main .about ul li .info .heading {
     text-align: end;
 }
@@ -254,7 +258,7 @@ main .about ul li .img {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    background-color: var(--main-color);
+    background-color: var(--light-color);
 }
 
 main .about ul li .img .part {
@@ -264,6 +268,22 @@ main .about ul li .img .part {
 }
 
 /* End About */
+
+/* Start Team */
+
+main .team .row .img img {
+    width: 300px;
+    border: 5px double var(--light-color);
+}
+
+/* End Team */
+
+/* Start Parteners */
+main .parteners .container img {
+    cursor: pointer;
+}
+
+/* End Parteners */
 
 /* Start Media Query */
 @media(max-width:768px) {
